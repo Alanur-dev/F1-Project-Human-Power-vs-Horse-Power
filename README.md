@@ -14,6 +14,14 @@ Using historical race data, the project examines whether **driver-related factor
 
 ---
 
+## Repository Structure
+
+- `f1_data/`  
+  - All CSV files used in the project.  
+  - `Formula 1_Github version.ipynb` – main analysis notebook (data preparation, modeling, SHAP analysis)
+
+---
+
 ## Data
 
 - **Source:** Kaggle – *Formula 1 World Championship (1950–2024)*  https://www.kaggle.com/datasets/muhammadehsan02/formula-1-world-championship-history-1950-2024/data
@@ -122,11 +130,7 @@ To understand **why** the model makes its predictions, SHAP (SHapley Additive ex
 Overall, the explainability analysis provides a balanced narrative: **“horse power” (constructor performance) dominates globally, but “human power” (driver performance) often decides individual races.**
 
 ---
-## Repository Structure
 
-- `f1_data/`  
-  - All CSV files used in the project.  
-  - `Formula 1_Github version.ipynb` – main analysis notebook (data preparation, modeling, SHAP analysis)
 
 - `.gitignore`  
   - Ensures local / system files and secrets (e.g., Kaggle API credentials) are not committed.
