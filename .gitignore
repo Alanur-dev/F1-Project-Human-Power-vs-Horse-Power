@@ -2,3 +2,4 @@ kaggle.json
 .kaggle/
 .env
 *.env
+.DS_Store
