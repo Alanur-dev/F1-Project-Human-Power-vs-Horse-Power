@@ -1,0 +1,4 @@
+kaggle.json
+.kaggle/
+.env
+*.env
