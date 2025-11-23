@@ -19,6 +19,10 @@ Using historical race data, the project examines whether **driver-related factor
 - `f1_data/`  
   - All CSV files used in the project.  
   - `Formula 1_Github version.ipynb` – main analysis notebook (data preparation, modeling, SHAP analysis)
+- `.gitignore`  
+  - Ensures local / system files and secrets (e.g., Kaggle API credentials) are not committed.
+
+> **Note:** Kaggle API keys are stored locally in `~/.kaggle/kaggle.json` and are never included in this repository.
 
 ---
 
@@ -131,9 +135,4 @@ Overall, the explainability analysis provides a balanced narrative: **“horse p
 
 ---
 
-
-- `.gitignore`  
-  - Ensures local / system files and secrets (e.g., Kaggle API credentials) are not committed.
-
-> **Note:** Kaggle API keys are stored locally in `~/.kaggle/kaggle.json` and are never included in this repository.
 
