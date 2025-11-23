@@ -134,5 +134,7 @@ To understand **why** the model makes its predictions, SHAP (SHapley Additive ex
 Overall, the explainability analysis provides a balanced narrative: **“horse power” (constructor performance) dominates globally, but “human power” (driver performance) often decides individual races.**
 
 ---
+## Fairness analysis: 
 
+A team-level fairness check was performed using a bias gap metric (mean_pred − mean_true) to see whether XGBoost systematically over- or under-predicts points for certain constructors. The model generally preserves the overall ranking of top teams, but shows a slight under-prediction tendency for leading teams such as Mercedes, Red Bull and Ferrari, and a mild over-prediction for lower-performing teams like Haas and Alfa Romeo.
 
